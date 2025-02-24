@@ -1,10 +1,9 @@
 package pres;
 
 import dao.DaoImpl;
-import metier.IMetier;
 import metier.MetierImpl;
 
-public class PresentationV1 {
+public class PresentationStatic {
     public static void main(String[] args) {
         /*
          * dependency injection with static instance

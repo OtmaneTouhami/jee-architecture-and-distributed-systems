@@ -4,10 +4,9 @@ import dao.IDao;
 import metier.IMetier;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class PresentationV2 {
+public class PresentationDynamic {
     public static void main(String[] args) {
         /*
          * dependency injection with dynamic instance
@@ -27,8 +26,6 @@ public class PresentationV2 {
             // Setter injection
             // IMetier metier = (IMetier) metierClass.getConstructor().newInstance();
             // metierClass.getDeclaredMethod("setDao", IDao.class).invoke(metier, dao);
-
-
 
             System.out.println("Result: " + metier.calcul());
 
