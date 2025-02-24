@@ -2,9 +2,9 @@ package extension;
 
 import dao.IDao;
 import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component("dao2")
+@Service("dao2")
 @Primary
 public class DaoImplV2 implements IDao {
     @Override
